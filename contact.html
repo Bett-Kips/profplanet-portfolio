@@ -4,62 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Me | My Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
-    <header>
-      <h1>Contact Me</h1>
-      <p>I would love to connect with you.</p>
+    <!-- Shared Header -->
+    <header class="site-header">
+      <div class="container">
+        <p class="site-title">
+          <a href="index.html">My Portfolio</a>
+        </p>
+
+        <h1>Contact Me</h1>
+        <p>I would love to connect with you.</p>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="about.html">About Me</a> |
-      <a href="projects.html">Projects<a> |
-      <a href="contact.html">Contact</a>
-    </nav>
-
+    <!-- Main Content -->
     <main>
-      <h2>Send Me a Message</h2>
+      <div class="container">
+        <h2>Send Me a Message</h2>
 
-      <form action="#" method="post">
-        <label for="name">Bett kips:</label><br />
-        <input type="text" id="name" name="name" required />
-        <br /><br />
+        <form action="#" method="post">
+          <label for="name">Your Name:</label><br />
+          <input type="text" id="name" name="name" required />
+          <br /><br />
 
-        <label for="email">kipsbett05@gmail.com:</label><br />
-        <input type="email" id="email" name="email" required />
-        <br /><br />
+          <label for="email">Your Email:</label><br />
+          <input type="email" id="email" name="email" required />
+          <br /><br />
 
-        <label for="subject">Subject:</label><br />
-        <input type="text" id="subject" name="subject" required />
-        <br /><br />
+          <label for="subject">Subject:</label><br />
+          <input type="text" id="subject" name="subject" required />
+          <br /><br />
 
-        <label for="message">Your Message:</label><br />
-        <textarea id="message" name="message" rows="5" required></textarea>
-        <br /><br />
+          <label for="message">Your Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+          ></textarea>
+          <br /><br />
 
-        <button type="submit">Send Message</button>
-      </form>
+          <button type="submit">Send Message</button>
+        </form>
 
-      <h2>Email</h2>
-      <p>
-        <a href="mailto:kipsbett05@gmail.com.com"> Email Me </a>
-      </p>
+        <h2>Email</h2>
+        <p>
+          <a href="mailto:kipsbett05@gmail.com">
+            kipsbett05@gmail.com
+          </a>
+        </p>
 
-      <h2>Social Links</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/Bett-Kips"> My GitHub </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/"> LinkedIn </a>
-        </li>
-      </ul>
+        <h2>Social Links</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Bett-Kips">My GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
     </main>
 
-    <footer>
-      <p>&copy; 2026 Bett Kips.</p>
+    <!-- Shared Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Bett Kips. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>

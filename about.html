@@ -4,70 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Bett | My Portfolio</title>
-<link rel="stylesheet" href="css/styles.css" />
-</head>
+    <title>About Me | Bett's Portfolio</title>
+
     <meta
       name="description"
       content="Learn about Bett Kips, my journey into software engineering, passion for web development, technical skills, and future career goals."
     />
+
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
-    <header>
-      <h1>About Me</h1>
+    <!-- Shared Header -->
+    <header class="site-header">
+      <div class="container">
+        <p class="site-title">
+          <a href="index.html">My Portfolio</a>
+        </p>
+
+        <h1>About Me</h1>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <nav aria-label="Main navigation">
-      <a href="index.html">Home</a> | 
-      <a href="about.html">About Me</a> |
-      <a href="projects.html">Projects<a> |
-     <a href="contact.html">Contact</a>
-    </nav>
-    
-     <main>
-      <section>
-        <h2>My Background</h2>
-        <p>
-          My name is Bett K. I am currently training in modern front-end and
-          back-end technologies. I focus on writing clean, semantic code and
-          developing responsive layouts that look great on any device. I treat
-          every project as an opportunity to solve real-world problems and
-          optimize performance from the ground up.
-        </p>
-      </section>
+    <!-- Main Content -->
+    <main>
+      <div class="container">
+        <section>
+          <h2>My Background</h2>
+          <p>
+            My name is Bett K. I am currently training in modern front-end and
+            back-end technologies. I focus on writing clean, semantic code and
+            developing responsive layouts that look great on any device. I treat
+            every project as an opportunity to solve real-world problems and
+            optimize performance from the ground up.
+          </p>
+        </section>
 
-      <section>
-        <h2>Why I Am Learning to Code</h2>
-        <p>
-          I want to understand how websites and applications are built and
-          develop solutions to real-world problems.
-        </p>
-      </section>
+        <section>
+          <h2>Why I Am Learning to Code</h2>
+          <p>
+            I want to understand how websites and applications are built and
+            develop solutions to real-world problems.
+          </p>
+        </section>
 
-      <section>
-        <h2>My Skills</h2>
-        <ul>
-          <li>HTML fundamentals</li>
-          <li>Creating web pages</li>
-          <li>Using VS Code and the terminal</li>
-          <li>Git and GitHub basics</li>
-        </ul>
-      </section>
+        <section>
+          <h2>My Skills</h2>
+          <ul>
+            <li>HTML fundamentals</li>
+            <li>Creating web pages</li>
+            <li>Using VS Code and the terminal</li>
+            <li>Git and GitHub basics</li>
+          </ul>
+        </section>
 
-      <section>
-        <h2>My Goals</h2>
-        <ol>
-          <li>Master HTML and CSS.</li>
-          <li>Learn JavaScript.</li>
-          <li>Build useful web applications.</li>
-          <li>Become a skilled software engineer.</li>
-        </ol>
-      </section>
+        <section>
+          <h2>My Goals</h2>
+          <ol>
+            <li>Master HTML and CSS.</li>
+            <li>Learn JavaScript.</li>
+            <li>Build useful web applications.</li>
+            <li>Become a skilled software engineer.</li>
+          </ol>
+        </section>
+      </div>
     </main>
 
-    <footer>
-      <p>&copy; 2026 Bett Kips. All rights reserved.</p>
+    <!-- Shared Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Bett Kips. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
+
