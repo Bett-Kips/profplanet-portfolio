@@ -1,4 +1,3 @@
-
 ## About
 
 Welcome to my personal portfolio. I am learning software
@@ -6,22 +5,35 @@ engineering and developing my web development skills.
 
 ## Pages
 
-- Home: Introduction to me.
-- About: My background, skills and goals.
-- Projects: My current and planned projects.
-- Contact: Ways to connect with me.
+- Home: My introduction and what I am learning.
+- About: My background, skills, interests and goals.
+- Projects: A collection of my current and planned projects, displayed using project cards and status badges.
+- Contact: A contact form, email address, and social links.
 
 ## Technologies
 
-- HTML5
-- Git
-- GitHub
+- HTML5 — for structuring web pages.
+- CSS3 — for styling pages, navigation, project cards, badges, and forms.
+- Git — for version control.
+- GitHub — for hosting code repository and tracking changes.
+
+## Features
+
+- Shared navigation across all portfolio pages.
+- Responsive styling for different screen sizes.
+- Styled project cards with status badges.
+- Project summary table.
+- Contact form with required fields.
+- Accessible labels and semantic HTML elements.
 
 ## Future Improvements
 
-- Add CSS styling.
-- Learn JavaScript.
-- Build interactive web applications.
+- Shared navigation across all portfolio pages.
+  Responsive styling for different screen sizes.
+- Styled project cards with status badges.
+- Project summary table.
+- Contact form with required fields.
+- Accessible labels and semantic HTML elements.
 
 ## Author
 
