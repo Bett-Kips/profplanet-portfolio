@@ -1,4 +1,3 @@
-# Bett Kips — Personal Portfolio
 
 ## About
 
