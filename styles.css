@@ -322,6 +322,36 @@ main {
   font-size: var(--font-xs);
   font-weight: 700;
 }
+/* Project images */
+.project-image {
+  margin: var(--space-4) 0;
+  border-radius: var(--radius);
+}
+
+/* Project summary table */
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-6) 0;
+  background: var(--color-surface);
+}
+
+.project-table caption {
+  font-weight: 700;
+  margin-bottom: var(--space-3);
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid var(--color-border);
+  padding: var(--space-3);
+  text-align: left;
+}
+
+.project-table th {
+  color: var(--color-text);
+  background: var(--color-featured);
+}
 
 /* 8. BUTTONS */
 .button {
